@@ -62,12 +62,12 @@ header nav li a {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 header nav li a:hover {
   color: #404bbf;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 header address li a {
@@ -76,12 +76,12 @@ header address li a {
   line-height: 24px;
   letter-spacing: 2%;
   color: #434455;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 header address li a:hover {
   color: #404bbf;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 header li {
@@ -131,9 +131,9 @@ header li {
   height: 24px;
 }
 
-.list-studio:active::after{
-  content: '';
-  background-color: #404BBF;
+.list-studio:active::after {
+  content: "";
+  background-color: #404bbf;
   width: 48px;
   height: 4px;
   position: absolute;
@@ -141,9 +141,9 @@ header li {
   left: 0;
 }
 
-.list-portfolio:active::after{
-  content: '';
-  background-color: #404BBF;
+.list-portfolio:active::after {
+  content: "";
+  background-color: #404bbf;
   width: 66px;
   height: 4px;
   position: absolute;
@@ -151,9 +151,9 @@ header li {
   left: 60px;
 }
 
-.list-contacts:active::after{
-  content: '';
-  background-color: #404BBF;
+.list-contacts:active::after {
+  content: "";
+  background-color: #404bbf;
   width: 67px;
   height: 4px;
   position: absolute;
@@ -187,13 +187,13 @@ header li {
   display: grid;
 }
 
-.section-1::after{
-  content: '';
+.section-1::after {
+  content: "";
   position: absolute;
   z-index: -1;
   inset: 0;
-  background-color: #2E2F42;
-  opacity: .7;
+  background-color: #2e2f42;
+  opacity: 0.7;
 }
 
 .section-1-button {
@@ -206,12 +206,12 @@ header li {
   background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-1-button:hover {
   background-color: #404bbf;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-2-div {
@@ -220,11 +220,11 @@ header li {
   gap: 30px;
 }
 
-.section-2-background{
+.section-2-background {
   width: 264px;
   height: 112px;
-  background-color: #F4F4FD;
-  border: 1px, solid, #8E8F99;
+  background-color: #f4f4fd;
+  border: 1px, solid, #8e8f99;
   border-radius: 4px;
   position: relative;
 }
@@ -276,10 +276,10 @@ header li {
 
 .section-3-background {
   width: 264px;
-  height: 120px;
+  height: 168px;
   text-align: center;
   background-color: white;
-  box-shadow: 0px 2px 1px 0px #2E2F4214;
+  box-shadow: 0px 2px 1px 0px #2e2f4214;
 }
 
 .section-3 p {
@@ -290,6 +290,110 @@ header li {
   color: #434455;
 }
 
+.space-1 {
+  padding-top: 20px;
+}
+
+.space-2 {
+  margin-top: 10px;
+}
+
+.mark-instagram {
+  position: absolute;
+  left: 398px;
+  top: 1575px;
+}
+
+.mark-twitter {
+  position: absolute;
+  left: 458px;
+  top: 1575px;
+}
+
+.mark-facebook {
+  position: absolute;
+  left: 515px;
+  top: 1575px;
+}
+
+.mark-linkedin {
+  position: absolute;
+  left: 575px;
+  top: 1573px;
+}
+
+.tom-instagram {
+  position: absolute;
+  left: 692px;
+  top: 1575px;
+}
+
+.tom-twitter {
+  position: absolute;
+  left: 752px;
+  top: 1575px;
+}
+
+.tom-facebook {
+  position: absolute;
+  left: 810px;
+  top: 1575px;
+}
+
+.tom-linkedin {
+  position: absolute;
+  left: 871px;
+  top: 1572px;
+}
+
+.camila-instagram {
+  position: absolute;
+  left: 988px;
+  top: 1575px;
+}
+
+.camila-twitter {
+  position: absolute;
+  left: 1048px;
+  top: 1575px;
+}
+
+.camila-facebook {
+  position: absolute;
+  left: 1105px;
+  top: 1575px;
+}
+
+.camila-linkedin {
+  position: absolute;
+  left: 1168px;
+  top: 1572px;
+}
+
+.daniel-instagram {
+  position: absolute;
+  left: 1285px;
+  top: 1575px;
+}
+
+.daniel-twitter {
+  position: absolute;
+  left: 1345px;
+  top: 1575px;
+}
+
+.daniel-facebook {
+  position: absolute;
+  left: 1402px;
+  top: 1575px;
+}
+
+.daniel-linkedin {
+  position: absolute;
+  left: 1464px;
+  top: 1572px;
+}
+
 .section-4 {
   font-weight: 700;
   font-size: 36px;
@@ -298,11 +402,11 @@ header li {
   color: #2e2f42;
 }
 
-.section-4-images{
+.section-4-images {
   display: flex;
 }
 
-.section-4-hover{
+.section-4-hover {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -313,7 +417,11 @@ header li {
   opacity: 0;
 }
 
-.text{
+section-4-lists:hover .section-4-hover {
+  opacity: 1;
+}
+
+.section-4-text {
   position: absolute;
   width: 296px;
   height: 96px;
@@ -328,10 +436,6 @@ header li {
   color: #f4f4fd;
 }
 
-section-4-lists:hover .section-4-hover{
-  opacity: 1;
-}
-
 .section-4-lists {
   position: relative;
   width: 100%;
@@ -339,13 +443,13 @@ section-4-lists:hover .section-4-hover{
   height: 420px;
   display: flex;
   flex-direction: column;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section-4-lists:hover{
+.section-4-lists:hover {
   background: #ffffff;
-  box-shadow: 2px 2px 0px 0px #2E2F4214;
+  box-shadow: 2px 2px 0px 0px #2e2f4214;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-portfolio {
@@ -385,7 +489,21 @@ section-4-lists:hover .section-4-hover{
 footer {
   background-color: #2e2f42;
   height: 312px;
-  padding: 100px;
+  padding: 85px;
+  display: flex;
+}
+
+.flex {
+  display: flex;
+}
+
+.social-media {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #ffffff;
+  margin: 0 auto;
 }
 
 footer a {
@@ -403,4 +521,28 @@ footer p {
   line-height: 24px;
   letter-spacing: 2%;
   color: #f4f4fd;
+}
+
+.webside-instagram {
+  position: absolute;
+  left: 967px;
+  top: 3070px;
+}
+
+.webside-twitter {
+  position: absolute;
+  left: 1027px;
+  top: 3070px;
+}
+
+.webside-facebook {
+  position: absolute;
+  left: 1087px;
+  top: 3070px;
+}
+
+.webside-linkedin {
+  position: absolute;
+  left: 1147px;
+  top: 3068px;
 }
