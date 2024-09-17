@@ -402,6 +402,10 @@ header li {
   color: #2e2f42;
 }
 
+.our-portfolio {
+  text-align: center;
+}
+
 .section-4-images {
   display: flex;
 }
@@ -412,37 +416,32 @@ header li {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 100%;
   opacity: 0;
 }
 
-section-4-lists:hover .section-4-hover {
-  opacity: 1;
-}
-
 .section-4-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #f4f4fd;
   position: absolute;
   width: 296px;
   height: 96px;
   left: 32px;
   top: 40px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
 }
 
 .section-4-lists {
   position: relative;
-  width: 100%;
-  max-width: 360px;
-  height: 420px;
   display: flex;
   flex-direction: column;
+}
+
+.section-4-hover:hover {
+  opacity: 1;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-4-lists:hover {
@@ -450,10 +449,6 @@ section-4-lists:hover .section-4-hover {
   box-shadow: 2px 2px 0px 0px #2e2f4214;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.our-portfolio {
-  text-align: center;
 }
 
 .section-4-div {
@@ -493,6 +488,19 @@ footer {
   display: flex;
 }
 
+.flex {
+  display: flex;
+}
+
+.social-media {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
 footer a {
   font-weight: 700;
   font-size: 18px;
@@ -506,6 +514,33 @@ footer p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  letter-spacing: 2%;
+  color: #f4f4fd;
+}
+
+.webside-instagram {
+  position: absolute;
+  left: 967px;
+  top: 3070px;
+}
+
+.webside-twitter {
+  position: absolute;
+  left: 1027px;
+  top: 3070px;
+}
+
+.webside-facebook {
+  position: absolute;
+  left: 1087px;
+  top: 3070px;
+}
+
+.webside-linkedin {
+  position: absolute;
+  left: 1147px;
+  top: 3068px;
+}
   letter-spacing: 2%;
   color: #f4f4fd;
 }
