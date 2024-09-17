@@ -300,98 +300,102 @@ header li {
 
 .mark-instagram {
   position: absolute;
-  left: 396px;
-  top: 1575px;
+  left: 403px;
+  top: 1582px;
 }
 
 .mark-twitter {
   position: absolute;
-  left: 457px;
-  top: 1575px;
+  left: 463px;
+  top: 1580px;
 }
 
 .mark-facebook {
   position: absolute;
-  left: 515px;
-  top: 1575px;
+  left: 523px;
+  top: 1580px;
 }
 
 .mark-linkedin {
   position: absolute;
-  left: 575px;
-  top: 1573px;
+  left: 583px;
+  top: 1580px;
 }
 
 .tom-instagram {
   position: absolute;
-  left: 692px;
-  top: 1575px;
+  left: 700px;
+  top: 1582px;
 }
 
 .tom-twitter {
   position: absolute;
-  left: 752px;
-  top: 1575px;
+  left: 760px;
+  top: 1580px;
 }
 
 .tom-facebook {
   position: absolute;
-  left: 810px;
-  top: 1575px;
+  left: 820px;
+  top: 1580px;
 }
 
 .tom-linkedin {
   position: absolute;
-  left: 871px;
-  top: 1572px;
+  left: 880px;
+  top: 1580px;
 }
 
 .camila-instagram {
   position: absolute;
-  left: 988px;
-  top: 1575px;
+  left: 995px;
+  top: 1582px;
 }
 
 .camila-twitter {
   position: absolute;
-  left: 1048px;
-  top: 1575px;
+  left: 1055px;
+  top: 1580px;
 }
 
 .camila-facebook {
   position: absolute;
-  left: 1105px;
-  top: 1575px;
+  left: 1113px;
+  top: 1580px;
 }
 
 .camila-linkedin {
   position: absolute;
-  left: 1168px;
-  top: 1572px;
+  left: 1175px;
+  top: 1580px;
 }
 
 .daniel-instagram {
   position: absolute;
-  left: 1285px;
-  top: 1575px;
+  left: 1291px;
+  top: 1582px;
 }
 
 .daniel-twitter {
   position: absolute;
-  left: 1345px;
-  top: 1575px;
+  left: 1352px;
+  top: 1580px;
 }
 
 .daniel-facebook {
   position: absolute;
-  left: 1402px;
-  top: 1575px;
+  left: 1412px;
+  top: 1580px;
 }
 
 .daniel-linkedin {
   position: absolute;
-  left: 1464px;
-  top: 1572px;
+  left: 1473px;
+  top: 1580px;
+}
+
+.icon-background:hover {
+  color: #010207;
 }
 
 .section-4 {
@@ -520,27 +524,24 @@ footer p {
 
 .webside-instagram {
   position: absolute;
-  left: 967px;
-  top: 3070px;
+  left: 975px;
+  top: 3077px;
 }
 
 .webside-twitter {
   position: absolute;
-  left: 1027px;
-  top: 3070px;
+  left: 1035px;
+  top: 3077px;
 }
 
 .webside-facebook {
   position: absolute;
-  left: 1087px;
-  top: 3070px;
+  left: 1095px;
+  top: 3077px;
 }
 
 .webside-linkedin {
   position: absolute;
-  left: 1147px;
-  top: 3068px;
-}
-  letter-spacing: 2%;
-  color: #f4f4fd;
+  left: 1155px;
+  top: 3077px;
 }
