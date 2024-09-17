@@ -43,6 +43,8 @@ header {
   border-color: #e7e9fc;
   border-style: solid;
   padding: 30px;
+  width: 1440px;
+  margin: 0 auto;
 }
 
 .header-list {
@@ -221,15 +223,6 @@ header li {
   gap: 30px;
 }
 
-.section-2-background {
-  width: 264px;
-  height: 112px;
-  background-color: #f4f4fd;
-  border: 1px, solid, #8e8f99;
-  border-radius: 4px;
-  position: relative;
-}
-
 .section-2-div li {
   font-weight: 500;
   font-size: 20px;
@@ -255,64 +248,65 @@ header li {
   height: 24px;
 }
 
+.section-2-icon-backgrounds {
+  display: flex;
+  gap: 39px;
+}
+
 .section-2-icon-background-1 {
   fill: #f4f4fd;
-  position: absolute;
-  left: 373px;
-  top: 750px;
+  position: relative;
   border: 1px, solid, #8e8f99;
   border-radius: 2%;
+  top: 60px;
 }
 
 .section-2-icon-background-2 {
   fill: #f4f4fd;
-  position: absolute;
-  left: 665px;
-  top: 750px;
+  position: relative;
   border: 1px, solid, #8e8f99;
   border-radius: 2%;
+  top: 60px;
 }
 
 .section-2-icon-background-3 {
   fill: #f4f4fd;
-  position: absolute;
-  left: 961px;
-  top: 750px;
+  position: relative;
   border: 1px, solid, #8e8f99;
   border-radius: 2%;
+  top: 60px;
 }
 
 .section-2-icon-background-4 {
   fill: #f4f4fd;
-  position: absolute;
-  left: 1255px;
-  top: 750px;
+  position: relative;
   border: 1px, solid, #8e8f99;
   border-radius: 2%;
+  top: 60px;
 }
 
 .icon-antenna {
-  position: absolute;
-  left: 460px;
-  top: 780px;
+  position: relative;
+  left: 100px;
+  bottom: 50px;
 }
 
 .icon-clock {
-  position: absolute;
-  left: 760px;
-  top: 780px;
+  position: relative;
+  left: 320px;
+  bottom: 50px;
 }
 
 .icon-diagram {
-  position: absolute;
-  left: 1060px;
-  top: 780px;
+  position: relative;
+  left: 560px;
+  bottom: 50px;
 }
 
 .icon-astronaut {
-  position: absolute;
-  left: 1360px;
-  top: 780px;
+  position: relative;
+  left: 780px;
+  bottom: 50px;
 }
 
 .section-3 {
@@ -369,100 +363,14 @@ header li {
   margin-top: 10px;
 }
 
-.mark-instagram {
-  position: absolute;
-  left: 402px;
-  top: 1650px;
-}
-
-.mark-twitter {
-  position: absolute;
-  left: 461px;
-  top: 1650px;
-}
-
-.mark-facebook {
-  position: absolute;
-  left: 521px;
-  top: 1650px;
-}
-
-.mark-linkedin {
-  position: absolute;
-  left: 581px;
-  top: 1650px;
-}
-
-.tom-instagram {
-  position: absolute;
-  left: 697px;
-  top: 1650px;
-}
-
-.tom-twitter {
-  position: absolute;
-  left: 758px;
-  top: 1650px;
-}
-
-.tom-facebook {
-  position: absolute;
-  left: 818px;
-  top: 1650px;
-}
-
-.tom-linkedin {
-  position: absolute;
-  left: 878px;
-  top: 1650px;
-}
-
-.camila-instagram {
-  position: absolute;
-  left: 993px;
-  top: 1650px;
-}
-
-.camila-twitter {
-  position: absolute;
-  left: 1053px;
-  top: 1650px;
-}
-
-.camila-facebook {
-  position: absolute;
-  left: 1111px;
-  top: 1650px;
-}
-
-.camila-linkedin {
-  position: absolute;
-  left: 1173px;
-  top: 1650px;
-}
-
-.daniel-instagram {
-  position: absolute;
-  left: 1289px;
-  top: 1650px;
-}
-
-.daniel-twitter {
-  position: absolute;
-  left: 1350px;
-  top: 1650px;
-}
-
-.daniel-facebook {
-  position: absolute;
-  left: 1410px;
-  top: 1650px;
-}
-
-.daniel-linkedin {
-  position: absolute;
-  left: 1471px;
-  top: 1650px;
+.social-media-icon {
+  position: relative;
+  bottom: 33px;
+  width: 264px;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 44px;
 }
 
 #section-3-icon-background {
@@ -573,7 +481,7 @@ footer {
   display: flex;
 }
 
-.social-media {
+.social-media-webside {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -599,28 +507,15 @@ footer p {
   color: #f4f4fd;
 }
 
-.webside-instagram {
-  position: absolute;
-  left: 973px;
-  top: 3145px;
-}
-
-.webside-twitter {
-  position: absolute;
-  left: 1035px;
-  top: 3145px;
-}
-
-.webside-facebook {
-  position: absolute;
-  left: 1095px;
-  top: 3145px;
-}
-
-.webside-linkedin {
-  position: absolute;
-  left: 1155px;
-  top: 3145px;
+.social-media-icon-webside {
+  position: relative;
+  bottom: 33px;
+  right: 15px;
+  width: 264px;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 45px;
 }
 
 #icon-background-footer {
