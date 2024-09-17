@@ -363,7 +363,7 @@ header li {
   margin-top: 10px;
 }
 
-.social-media-icon {
+.social-media-icon-our-team {
   position: relative;
   bottom: 33px;
   width: 264px;
@@ -518,10 +518,10 @@ footer p {
   gap: 45px;
 }
 
-#icon-background-footer {
+#footer-icon-background {
   fill: #4d5ae5;
 }
 
-#icon-background-footer:hover {
+#footer-icon-background:hover {
   fill: #31d0aa;
 }
