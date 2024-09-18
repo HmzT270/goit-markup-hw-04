@@ -40,6 +40,9 @@ body {
 header {
   height: 72px;
   border-bottom: 1px;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
   border-color: #e7e9fc;
   border-style: solid;
   padding: 30px;
@@ -510,7 +513,7 @@ footer p {
 .social-media-icon-webside {
   position: relative;
   bottom: 33px;
-  right: 15px;
+  right: 16px;
   width: 264px;
   height: 10px;
   display: flex;
