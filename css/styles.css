@@ -132,24 +132,41 @@ header a {
   width: 100px;
 }
 
-.menu-list-1:active:hover{
+.list-studio:active::after {
   content: "";
-  width: 100%;
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
   background-color: #404bbf;
-  border-radius: 2px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  width: 48px;
+  height: 4px;
+  position: absolute;
+  top: 35px;
+  left: 0;
+}
+
+.list-portfolio:active::after {
+  content: "";
+  background-color: #404bbf;
+  width: 66px;
+  height: 4px;
+  position: absolute;
+  top: 35px;
+  left: 60px;
+}
+
+.list-contacts:active::after {
+  content: "";
+  background-color: #404bbf;
+  width: 67px;
+  height: 4px;
+  position: absolute;
+  top: 35px;
+  left: 135px;
 }
 
 .address {
   display: flex;
 }
 
-.section-1 {
+.section-part-one {
   max-width: 1440px;
   height: 600px;
   font-weight: 700;
@@ -168,7 +185,7 @@ header a {
   display: grid;
 }
 
-.section-1::after {
+.section-part-one::after {
   content: "";
   position: absolute;
   z-index: -1;
@@ -177,7 +194,7 @@ header a {
   opacity: 0.7;
 }
 
-.section-1-button {
+.section-part-one-button {
   width: 169px;
   height: 56px;
   font-weight: 500;
@@ -187,12 +204,12 @@ header a {
   background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
-}
-
-.section-1-button:hover {
-  background-color: #404bbf;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.section-part-one-button:hover {
+  background-color: #404bbf;
 }
 
 .section-2-div {
