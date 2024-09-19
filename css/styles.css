@@ -63,7 +63,7 @@ header a {
   justify-content: space-around;
 }
 
-.menu-list-1{
+.menu-list-one{
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -73,11 +73,11 @@ header a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-list-1:hover {
+.menu-list-one:hover {
   color: #404bbf;
 }
 
-.menu-list-2 {
+.menu-list-two {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -86,7 +86,7 @@ header a {
   padding-right: 50px;
 }
 
-.menu-list-2:hover {
+.menu-list-two:hover {
   color: #404bbf;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -146,7 +146,7 @@ header a {
   display: flex;
 }
 
-.section-part-1 {
+.section-part-one {
   max-width: 1440px;
   height: 600px;
   font-weight: 700;
@@ -165,7 +165,7 @@ header a {
   display: grid;
 }
 
-.section-part-1::after {
+.section-part-one::after {
   content: "";
   position: absolute;
   z-index: -1;
@@ -174,7 +174,7 @@ header a {
   opacity: 0.7;
 }
 
-.section-part-1-button {
+.section-part-one-button {
   width: 169px;
   height: 56px;
   font-weight: 500;
