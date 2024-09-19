@@ -38,6 +38,7 @@ body {
 }
 
 header {
+  width: 1440px;
   height: 72px;
   border-bottom: 1px;
   border-top: 0px;
@@ -46,14 +47,8 @@ header {
   border-color: #e7e9fc;
   border-style: solid;
   padding: 30px;
-  width: 1440px;
   margin: 0 auto;
-}
-
-.header-list {
-  display: flex;
-  width: 1158px;
-  justify-content: space-around;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 header a {
@@ -62,35 +57,39 @@ header a {
   text-decoration: none;
 }
 
-header nav li a {
+.header-list {
+  display: flex;
+  width: 1158px;
+  justify-content: space-around;
+}
+
+.menu-list-1{
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
+  position: relative;
 }
 
-header nav li a:hover {
+.menu-list-1:hover {
   color: #404bbf;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-header address li a {
+.menu-list-2 {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
   color: #434455;
+  padding-right: 50px;
 }
 
-header address li a:hover {
+.menu-list-2:hover {
   color: #404bbf;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-header li {
-  list-style-type: none;
 }
 
 .web {
@@ -123,69 +122,45 @@ header li {
 
 .list-studio {
   width: 60px;
-  height: 24px;
 }
 
 .list-portfolio {
   width: 75px;
-  height: 24px;
 }
 
 .list-contacts {
   width: 100px;
-  height: 24px;
 }
 
-.list-studio:active::after {
+.menu-list-1:active:hover{
   content: "";
-  background-color: #404bbf;
-  width: 48px;
-  height: 4px;
+  width: 100%;
   position: absolute;
-  top: 35px;
   left: 0;
-}
-
-.list-portfolio:active::after {
-  content: "";
-  background-color: #404bbf;
-  width: 66px;
+  bottom: -1px;
   height: 4px;
-  position: absolute;
-  top: 35px;
-  left: 60px;
-}
-
-.list-contacts:active::after {
-  content: "";
   background-color: #404bbf;
-  width: 67px;
-  height: 4px;
-  position: absolute;
-  top: 35px;
-  left: 135px;
+  border-radius: 2px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address {
   display: flex;
 }
 
-.mail {
-  padding-right: 100px;
-}
-
 .section-1 {
-  width: 1440px;
+  max-width: 1440px;
   height: 600px;
-  margin: 0 auto;
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
   letter-spacing: 2%;
-  background-image: url("https://img.freepik.com/free-photo/group-people-working-website-template_53876-25068.jpg?t=st=1726583088~exp=1726586688~hmac=ed91169d70688d383726c242f18606757f4a916ef28a25f0e30b8e71cb056a2a&w=1380");
+  margin: 0 auto;
+  background-image: linear-gradient( to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/homework-4/images/people-office.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1440px, 600px;
+  background-size: cover;
   color: #ffffff;
   text-align: center;
   position: relative;
@@ -380,7 +355,25 @@ header li {
   fill: #4d5ae5;
 }
 
-#section-3-icon-background:hover {
+#instagram:hover {
+  fill: #404bbf;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#twitter:hover {
+  fill: #404bbf;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#facebook:hover {
+  fill: #404bbf;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#linkedin:hover {
   fill: #404bbf;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -525,7 +518,25 @@ footer p {
   fill: #4d5ae5;
 }
 
-#footer-icon-background:hover {
+#instagram-webside:hover {
+  fill: #31d0aa;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#twitter-webside:hover {
+  fill: #31d0aa;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#facebook-webside:hover {
+  fill: #31d0aa;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#linkedin-webside:hover {
   fill: #31d0aa;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
