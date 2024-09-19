@@ -63,7 +63,7 @@ header a {
   justify-content: space-around;
 }
 
-.menu-one{
+.menu-list-one{
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -78,7 +78,7 @@ header a {
   color: #404bbf;
 }
 
-.menu-two {
+.menu-list-two {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -93,7 +93,7 @@ header a {
   color: #404bbf;
 }
 
-.web-list {
+.web {
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
@@ -102,7 +102,7 @@ header a {
   color: #4d5ae5;
 }
 
-.studio-list {
+.studio {
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
@@ -121,19 +121,7 @@ header a {
   position: relative;
 }
 
-.list-studio {
-  width: 60px;
-}
-
-.list-portfolio {
-  width: 75px;
-}
-
-.list-contacts {
-  width: 100px;
-}
-
-.menu-one:active::after{
+.menu-list-one:active::after{
   content: "";
   background-color: #404bbf;
   width: 100%;
