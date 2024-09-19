@@ -143,7 +143,7 @@ header a {
   line-height: 60px;
   letter-spacing: 2%;
   margin: 0 auto;
-  background-image: linear-gradient( to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/homework-4/images/people-office.jpeg");
+  background-image: linear-gradient( to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/people-office.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
