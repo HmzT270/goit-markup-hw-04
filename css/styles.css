@@ -93,7 +93,7 @@ header a {
   color: #404bbf;
 }
 
-.web {
+.web-list {
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
@@ -102,7 +102,7 @@ header a {
   color: #4d5ae5;
 }
 
-.studio {
+.studio-list {
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
