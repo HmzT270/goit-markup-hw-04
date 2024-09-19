@@ -23,7 +23,7 @@ ul {
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #2e2f42; 
 }
 
 .container {
@@ -84,12 +84,12 @@ header a {
   letter-spacing: 2%;
   color: #434455;
   padding-right: 50px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-list-two:hover {
   color: #404bbf;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .web {
@@ -132,7 +132,7 @@ header a {
   width: 100px;
 }
 
-.menu-list-1:active::after{
+.menu-list-one:active::after{
   content: "";
   background-color: #404bbf;
   width: 100%;
@@ -154,7 +154,7 @@ header a {
   line-height: 60px;
   letter-spacing: 2%;
   margin: 0 auto;
-  background-image: linear-gradient( to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/homework-4/images/people-office.jpg");
+  background-image: lineer-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/homework-4/images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -175,6 +175,7 @@ header a {
 }
 
 .section-part-one-button {
+  content: "";
   width: 169px;
   height: 56px;
   font-weight: 500;
