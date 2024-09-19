@@ -63,21 +63,22 @@ header a {
   justify-content: space-around;
 }
 
-.menu-list-one{
+.menu-one{
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
+  margin-right: 10px;
   position: relative;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-list-one:hover {
+.menu-one:hover {
   color: #404bbf;
 }
 
-.menu-list-two {
+.menu-two {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -88,7 +89,7 @@ header a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-list-two:hover {
+.menu-two:hover {
   color: #404bbf;
 }
 
@@ -132,7 +133,7 @@ header a {
   width: 100px;
 }
 
-.menu-list-one:active::after{
+.menu-one:active::after{
   content: "";
   background-color: #404bbf;
   width: 100%;
@@ -482,8 +483,6 @@ footer {
   letter-spacing: 2%;
   color: #ffffff;
   margin: 0 auto;
-  display: flex;
-  align-items: baseline;
 }
 
 footer a {
