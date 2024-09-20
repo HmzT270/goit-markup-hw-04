@@ -102,7 +102,7 @@ header li {
   position: relative;
 }
 
-.menu-list-one{
+.menu-one{
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -111,13 +111,13 @@ header li {
   position: relative;
 }
 
-.menu-list-one:hover {
+.menu-one:hover {
   color: #404bbf;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-list-one:active::after{
+.menu-one:active::after{
   content: "";
   background-color: #404bbf;
   width: 100%;
@@ -127,7 +127,7 @@ header li {
   left: 0;
 }
 
-.menu-list-two {
+.menu-two {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -136,7 +136,7 @@ header li {
   margin-right: 10px;
 }
 
-.menu-list-two:hover {
+.menu-two:hover {
   color: #404bbf;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
