@@ -48,7 +48,8 @@ header {
   padding: 30px;
   width: 1440px;
   margin: 0 auto;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-list {
@@ -102,7 +103,7 @@ header nav ul {
   position: relative;
 }
 
-.menu-one{
+.menu-one {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -117,7 +118,7 @@ header nav ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-one:active::after{
+.menu-one:active::after {
   content: "";
   background-color: #404bbf;
   width: 100%;
@@ -142,7 +143,7 @@ header nav ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-header address ul{
+header address ul {
   display: flex;
 }
 
@@ -154,7 +155,11 @@ header address ul{
   line-height: 60px;
   letter-spacing: 2%;
   margin: 0 auto;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/background-image/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -224,66 +229,14 @@ header address ul{
 
 .section-2-icon-backgrounds {
   display: flex;
-  gap: 39px;
+  gap: 30px;
 }
 
-.section-2-icon-background-1 {
-  fill: #f4f4fd;
-  position: relative;
-  border: 1px, solid, #8e8f99;
-  border-radius: 2%;
-  top: 60px;
+.section-2-icons {
+  border: 1px, solid #8e8f99;
 }
 
-.section-2-icon-background-2 {
-  fill: #f4f4fd;
-  position: relative;
-  border: 1px, solid, #8e8f99;
-  border-radius: 2%;
-  top: 60px;
-}
-
-.section-2-icon-background-3 {
-  fill: #f4f4fd;
-  position: relative;
-  border: 1px, solid, #8e8f99;
-  border-radius: 2%;
-  top: 60px;
-}
-
-.section-2-icon-background-4 {
-  fill: #f4f4fd;
-  position: relative;
-  border: 1px, solid, #8e8f99;
-  border-radius: 2%;
-  top: 60px;
-}
-
-.icon-antenna {
-  position: relative;
-  left: 100px;
-  bottom: 50px;
-}
-
-.icon-clock {
-  position: relative;
-  left: 320px;
-  bottom: 50px;
-}
-
-.icon-diagram {
-  position: relative;
-  left: 560px;
-  bottom: 50px;
-}
-
-.icon-astronaut {
-  position: relative;
-  left: 780px;
-  bottom: 50px;
-}
-
-.section-three {
+.section-3 {
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
@@ -293,7 +246,7 @@ header address ul{
   height: 732px;
 }
 
-.div-three {
+.section-3-div {
   display: flex;
   gap: 32px;
 }
@@ -302,27 +255,28 @@ header address ul{
   text-align: center;
 }
 
-.section-three li {
+.section-3 li {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 2%;
 }
 
-.images-three {
+.section-3-images {
   display: flex;
 }
 
-.background-three {
+.section-3-background {
   width: 264px;
   height: 200px;
   text-align: center;
   background-color: white;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
 
-.section-three p {
+.section-3 p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -332,40 +286,16 @@ header address ul{
 
 .social-media-icon-our-team {
   position: relative;
-  bottom: 33px;
+  bottom: 1px;
   width: 264px;
   height: 10px;
   display: flex;
   justify-content: center;
-  gap: 44px;
+  gap: 20px;
 }
 
-#background-three {
-  fill: #4d5ae5;
-}
-
-#instagram:hover {
+.icons:hover {
   fill: #404bbf;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-#twitter:hover {
-  fill: #404bbf;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-#facebook:hover {
-  fill: #404bbf;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-#linkedin:hover {
-  fill: #404bbf;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-4 {
@@ -501,32 +431,4 @@ footer p {
   display: flex;
   justify-content: center;
   gap: 45px;
-}
-
-#footer-icon-background {
-  fill: #4d5ae5;
-}
-
-#instagram-webside:hover {
-  fill: #31d0aa;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-#twitter-webside:hover {
-  fill: #31d0aa;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-#facebook-webside:hover {
-  fill: #31d0aa;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-#linkedin-webside:hover {
-  fill: #31d0aa;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
