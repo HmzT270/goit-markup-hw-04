@@ -234,6 +234,7 @@ header address ul {
 
 .section-2-icons {
   border: 1px, solid #8e8f99;
+  border-radius: 2%;
 }
 
 .section-3 {
@@ -424,11 +425,15 @@ footer p {
 
 .social-media-icon-webside {
   position: relative;
-  bottom: 33px;
-  right: 16px;
+  bottom: 20px;
+  right: 25px;
   width: 264px;
   height: 10px;
   display: flex;
   justify-content: center;
-  gap: 45px;
+  gap: 20px;
+}
+
+.icons-webside {
+  fill: #31d0aa;
 }
