@@ -92,7 +92,7 @@ header li {
   font-family: "Raleway", sans-serif;
 }
 
-header nav ul {
+.page-menu-list {
   width: 350px;
   height: 48px;
   font-weight: 500px;
@@ -103,7 +103,7 @@ header nav ul {
   position: relative;
 }
 
-.menu-one {
+.page-menu-1 {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -112,13 +112,13 @@ header nav ul {
   position: relative;
 }
 
-.menu-one:hover {
+.page-menu-1:hover {
   color: #404bbf;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-one:active::after {
+.page-menu-1:active::after {
   content: "";
   background-color: #404bbf;
   width: 100%;
@@ -128,7 +128,7 @@ header nav ul {
   left: 0;
 }
 
-.menu-two {
+.page-menu-2 {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -137,17 +137,17 @@ header nav ul {
   margin-right: 10px;
 }
 
-.menu-two:hover {
+.page-menu-2:hover {
   color: #404bbf;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-header address ul {
+.address {
   display: flex;
 }
 
-.section-one {
+.section-1 {
   max-width: 1440px;
   height: 600px;
   font-weight: 700;
@@ -170,7 +170,7 @@ header address ul {
   display: grid;
 }
 
-.section-one::after {
+.section-1::after {
   content: "";
   position: absolute;
   z-index: -1;
@@ -179,7 +179,7 @@ header address ul {
   opacity: 0.7;
 }
 
-.button-one {
+.section-1-button {
   width: 169px;
   height: 56px;
   font-weight: 500;
@@ -189,11 +189,12 @@ header address ul {
   background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-one:hover {
+.section-1-button:hover {
   background-color: #404bbf;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-2-div {
@@ -227,12 +228,12 @@ header address ul {
   height: 24px;
 }
 
-.section-2-icon-backgrounds {
+.section-2-icons {
   display: flex;
   gap: 30px;
 }
 
-.section-2-icons {
+.section-2-border {
   border: 1px, solid #8e8f99;
   border-radius: 2%;
 }
@@ -287,16 +288,41 @@ header address ul {
 
 .social-media-icon-our-team {
   position: relative;
-  bottom: 1px;
+  bottom: 33px;
   width: 264px;
   height: 10px;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 44px;
+  right: 1px;
 }
 
-.icons:hover {
+#section-3-icon-background {
+  fill: #4d5ae5;
+}
+
+#instagram:hover {
   fill: #404bbf;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#twitter:hover {
+  fill: #404bbf;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#facebook:hover {
+  fill: #404bbf;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#linkedin:hover {
+  fill: #404bbf;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-4 {
@@ -425,15 +451,38 @@ footer p {
 
 .social-media-icon-webside {
   position: relative;
-  bottom: 20px;
-  right: 25px;
+  bottom: 38px;
+  left: 9px;
   width: 264px;
   height: 10px;
   display: flex;
-  justify-content: center;
-  gap: 20px;
+  gap: 36px;
 }
 
-.icons-webside {
+#footer-icon-background {
+  fill: #4d5ae5;
+}
+
+#instagram-webside:hover {
   fill: #31d0aa;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#twitter-webside:hover {
+  fill: #31d0aa;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#facebook-webside:hover {
+  fill: #31d0aa;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#linkedin-webside:hover {
+  fill: #31d0aa;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
