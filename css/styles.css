@@ -125,6 +125,8 @@ header li {
   position: absolute;
   bottom: -22px;
   left: 0;
+  border: none;
+  border-radius: 2px;
 }
 
 .page-menu-2 {
@@ -228,6 +230,7 @@ header li {
 }
 
 .section-2-icons {
+  margin-bottom: 10px;
   border: 1px, solid #8e8f99;
   border-radius: 2%;
 }
