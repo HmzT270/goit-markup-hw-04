@@ -110,7 +110,7 @@ header li {
   position: relative;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: background-color;
+  transition-property: color;
 }
 
 .page-menu-1:hover {
@@ -136,7 +136,7 @@ header li {
   margin-right: 10px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: background-color;
+  transition-property: color;
 }
 
 .page-menu-2:hover {
@@ -293,7 +293,7 @@ header li {
   transition: fill 0.3s ease;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: background-color;
+  transition-property: var(--color3);
 }
 
 .section-3-icon:hover {
@@ -325,7 +325,7 @@ header li {
   opacity: 0;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: background-color;
+  transition-property: opacity;
 }
 
 .section-4-hover:hover {
@@ -351,11 +351,10 @@ header li {
   flex-direction: column;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: background-color;
+  transition-property: box-shadow;
 }
 
 .section-4-lists:hover {
-  background: #ffffff;
   box-shadow: 2px 2px 0px 0px #2e2f4214;
 }
 
@@ -435,7 +434,7 @@ footer p {
 
 .icon-footer {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: background-color;
+  transition-property: var(--color3);
 }
 
 .icon-footer:hover {
