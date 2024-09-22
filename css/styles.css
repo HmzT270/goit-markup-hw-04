@@ -108,6 +108,8 @@ header li {
   letter-spacing: 2%;
   margin-right: 10px;
   position: relative;
+  border: none;
+  border-radius: 2px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color;
@@ -125,8 +127,6 @@ header li {
   position: absolute;
   bottom: -22px;
   left: 0;
-  border: none;
-  border-radius: 2px;
 }
 
 .page-menu-2 {
