@@ -110,6 +110,7 @@ header li {
   position: relative;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
 }
 
 .page-menu-1:hover {
@@ -135,6 +136,7 @@ header li {
   margin-right: 10px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
 }
 
 .page-menu-2:hover {
@@ -168,15 +170,6 @@ header li {
   display: grid;
 }
 
-.section-1::after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  background-color: #2e2f42;
-  opacity: 0.7;
-}
-
 .section-1-button {
   width: 169px;
   height: 56px;
@@ -190,6 +183,7 @@ header li {
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
 }
 
 .section-1-button:hover {
@@ -299,6 +293,7 @@ header li {
   transition: fill 0.3s ease;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
 }
 
 .section-3-icon:hover {
@@ -330,6 +325,11 @@ header li {
   opacity: 0;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
+}
+
+.section-4-hover:hover {
+  opacity: 1;
 }
 
 .section-4-text {
@@ -351,10 +351,7 @@ header li {
   flex-direction: column;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.section-4-hover:hover {
-  opacity: 1;
+  transition-property: background-color;
 }
 
 .section-4-lists:hover {
@@ -436,10 +433,11 @@ footer p {
   gap: 20px;
 }
 
-#icon-footer {
+.icon-footer {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
 }
 
-#icon-footer:hover {
+.icon-footer:hover {
   --color3: #31d0aa;
 }
