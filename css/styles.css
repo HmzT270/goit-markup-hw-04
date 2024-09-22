@@ -92,7 +92,7 @@ header li {
   font-family: "Raleway", sans-serif;
 }
 
-.page-menu-list {
+header nav ul {
   width: 350px;
   height: 48px;
   font-weight: 500px;
@@ -103,22 +103,22 @@ header li {
   position: relative;
 }
 
-.page-menu-1 {
+.menu-one {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
   margin-right: 10px;
   position: relative;
-}
-
-.page-menu-1:hover {
-  color: #404bbf;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.page-menu-1:active::after {
+.menu-one:hover {
+  color: #404bbf;
+}
+
+.menu-one:active::after {
   content: "";
   background-color: #404bbf;
   width: 100%;
@@ -128,26 +128,26 @@ header li {
   left: 0;
 }
 
-.page-menu-2 {
+.menu-two {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
   color: #434455;
   margin-right: 10px;
-}
-
-.page-menu-2:hover {
-  color: #404bbf;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address {
+.menu-two:hover {
+  color: #404bbf;
+}
+
+header address ul {
   display: flex;
 }
 
-.section-1 {
+.section-one {
   max-width: 1440px;
   height: 600px;
   font-weight: 700;
@@ -170,7 +170,7 @@ header li {
   display: grid;
 }
 
-.section-1::after {
+.section-one::after {
   content: "";
   position: absolute;
   z-index: -1;
@@ -179,7 +179,7 @@ header li {
   opacity: 0.7;
 }
 
-.section-1-button {
+.button-one {
   width: 169px;
   height: 56px;
   font-weight: 500;
@@ -189,12 +189,11 @@ header li {
   background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section-1-button:hover {
+.button-one:hover {
   background-color: #404bbf;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-2-div {
@@ -228,12 +227,12 @@ header li {
   height: 24px;
 }
 
-.section-2-icons {
+.section-2-icon-backgrounds {
   display: flex;
   gap: 30px;
 }
 
-.section-2-border {
+.section-2-icons {
   border: 1px, solid #8e8f99;
   border-radius: 2%;
 }
@@ -288,41 +287,22 @@ header li {
 
 .social-media-icon-our-team {
   position: relative;
-  bottom: 33px;
+  bottom: 1px;
   width: 264px;
   height: 10px;
   display: flex;
   justify-content: center;
-  gap: 44px;
-  right: 1px;
+  gap: 20px;
 }
 
-#section-3-icon-background {
-  fill: #4d5ae5;
-}
-
-#instagram:hover {
-  fill: #404bbf;
+.section-3-icon {
+  transition: fill 0.3s ease;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-#twitter:hover {
-  fill: #404bbf;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-#facebook:hover {
-  fill: #404bbf;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-#linkedin:hover {
-  fill: #404bbf;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.section-3-icon:hover {
+  --color3: #404bbf;
 }
 
 .section-4 {
@@ -348,6 +328,8 @@ header li {
   left: 0;
   right: 0;
   opacity: 0;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-4-text {
@@ -367,19 +349,17 @@ header li {
   position: relative;
   display: flex;
   flex-direction: column;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-4-hover:hover {
   opacity: 1;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-4-lists:hover {
   background: #ffffff;
   box-shadow: 2px 2px 0px 0px #2e2f4214;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-4-div {
@@ -451,38 +431,15 @@ footer p {
 
 .social-media-icon-webside {
   position: relative;
-  bottom: 38px;
-  left: 9px;
-  width: 264px;
-  height: 10px;
+  right: 5px;
   display: flex;
-  gap: 36px;
+  gap: 20px;
 }
 
-#footer-icon-background {
-  fill: #4d5ae5;
+#icon-footer {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-#instagram-webside:hover {
-  fill: #31d0aa;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-#twitter-webside:hover {
-  fill: #31d0aa;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-#facebook-webside:hover {
-  fill: #31d0aa;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-#linkedin-webside:hover {
-  fill: #31d0aa;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+#icon-footer:hover {
+  --color3: #31d0aa;
 }
