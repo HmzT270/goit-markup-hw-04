@@ -66,29 +66,27 @@ header nav li a {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 header li {
   list-style-type: none;
 }
 
-.web-header,
-.web-footer {
+.web {
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
 }
 
-.studio-header,
-.studio-footer {
+.studio {
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   font-family: "Raleway", sans-serif;
 }
 
@@ -98,7 +96,7 @@ header li {
   font-weight: 500px;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   display: flex;
   position: relative;
 }
@@ -107,7 +105,7 @@ header li {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   margin-right: 10px;
   position: relative;
   border: none;
@@ -135,7 +133,7 @@ header li {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
   margin-right: 10px;
   transition-duration: 250ms;
@@ -157,7 +155,7 @@ header li {
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   margin: 0 auto;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -180,7 +178,7 @@ header li {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
@@ -202,7 +200,7 @@ header li {
 
 .section-2-icons {
   margin-bottom: 10px;
-  border: 1px, solid #8e8f99;
+  border: 1px solid #8e8f99;
   border-radius: 2%;
 }
 
@@ -216,14 +214,14 @@ header li {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 .section-2-general p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -241,7 +239,7 @@ header li {
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   background-color: #f4f4fd;
   color: #2e2f42;
   height: 732px;
@@ -260,7 +258,7 @@ header li {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 .section-3-images {
@@ -281,7 +279,7 @@ header li {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -310,7 +308,7 @@ header li {
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -358,7 +356,7 @@ header li {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
   position: absolute;
   width: 296px;
@@ -379,14 +377,14 @@ header li {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 .section-4-border p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
   padding-top: 10px;
 }
@@ -406,7 +404,7 @@ footer a {
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: #f4f4fd;
   text-decoration: none;
 }
@@ -415,7 +413,7 @@ footer p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
 
@@ -425,7 +423,7 @@ footer p {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #ffffff;
   margin: 0 auto;
 }
